@@ -1,6 +1,5 @@
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Assert;
+import org.junit.Test;
 
 class FizzBuzzTest {
 
@@ -10,7 +9,7 @@ class FizzBuzzTest {
         String expected = "Fizz";
 
         String result = FizzBuzz.fizzBuzz(number);
-        assertEquals(expected, result);
+        Assert.assertEquals(expected, result);
     }
 
     @Test
@@ -19,7 +18,7 @@ class FizzBuzzTest {
         String expected = "Fizz";
 
         String result = FizzBuzz.fizzBuzz(number);
-        assertEquals(expected, result);
+        Assert.assertEquals(expected, result);
     }
 
     @Test
@@ -28,7 +27,7 @@ class FizzBuzzTest {
         String expected = "Buzz";
 
         String result = FizzBuzz.fizzBuzz(number);
-        assertEquals(expected, result);
+        Assert.assertEquals(expected, result);
     }
 
     @Test
@@ -37,7 +36,7 @@ class FizzBuzzTest {
         String expected = "Buzz";
 
         String result = FizzBuzz.fizzBuzz(number);
-        assertEquals(expected, result);
+        Assert.assertEquals(expected, result);
     }
 
     @Test
@@ -46,7 +45,7 @@ class FizzBuzzTest {
         String expected = "FizzBuzz";
 
         String result = FizzBuzz.fizzBuzz(number);
-        assertEquals(expected, result);
+        Assert.assertEquals(expected, result);
     }
 
     @Test
@@ -55,6 +54,6 @@ class FizzBuzzTest {
         String expected = "FizzBuzz";
 
         String result = FizzBuzz.fizzBuzz(number);
-        assertEquals(expected, result);
+        Assert.assertEquals(expected, result);
     }
 }
